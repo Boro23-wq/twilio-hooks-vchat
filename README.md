@@ -40,3 +40,5 @@ npm run dev
 ```
 
 This will open in your browser at [localhost:3000](http://localhost:3000).
+
+Inspired by the Twilio blog [here](https://www.twilio.com/blog/2018/03/video-chat-react.html)
