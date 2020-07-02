@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
 }
 
@@ -9,13 +10,12 @@ html {
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  color: #333e5a;
+  font-family: 'Arial', sans-serif;
   min-height: 100%;
 }
 
 header {
-  background: #f0293e;
+  background: #f7797d;
   color: #fff;
   text-align: center;
   flex-grow: 0;
@@ -43,8 +43,17 @@ main {
 }
 
 form {
-  max-width: 300px;
+  max-width: 400px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  min-width: 100px;
+  min-height: 400px;
+  padding: 20px 40px 40px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 36px #696969;
+  background-image: linear-gradient(#f7797d, #fbd786);
 }
 
 h2 {
@@ -67,19 +76,19 @@ form > div > input {
   font-size: 16px;
   padding: 0.4em;
   border-radius: 6px;
-  border: 1px solid #333e5a;
+  border: none;
 }
 
 button {
-  background: #333e5a;
+  background: rgb(255, 0, 0, 0.4);
   color: #fff;
   font-size: 16px;
   padding: 0.4em;
-  border-radius: 6px;
-  border: 1px solid transparent;
+  border-radius: 10px;
+  border: none;
 }
 button:hover {
-  filter: brightness(150%);
+  filter: brightness(200%);
 }
 
 .room {
@@ -128,16 +137,4 @@ video {
   display: block;
   margin: 0 auto;
   border-radius: 6px;
-}
-
-footer {
-  background: #333e5a;
-  color: #fff;
-  text-align: center;
-  flex-grow: 0;
-  padding: 1em 0;
-}
-
-footer a {
-  color: #fff;
 }
