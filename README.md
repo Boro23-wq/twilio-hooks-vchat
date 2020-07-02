@@ -9,20 +9,14 @@ Learn how to build this entire application in the blog post [Build a Twilio Vide
 To run the application you will need a [Twilio account](https://www.twilio.com/try-twilio) and Node.js and npm installed. Start by cloning or downloading the repo to your machine.
 
 ```bash
-git clone https://github.com/philnash/twilio-video-react-hooks.git
-cd twilio-video-react-hooks
+git clone https://github.com/philnash/twilio-hooks-vchat.git
+cd twilio-hooks-vchat
 ```
 
 Install the dependencies:
 
 ```bash
 npm install
-```
-
-Create a `.env` file by copying the `.env.example`.
-
-```bash
-cp .env.example .env
 ```
 
 ### Credentials
@@ -41,4 +35,4 @@ npm run dev
 
 This will open in your browser at [localhost:3000](http://localhost:3000).
 
-Inspired by the Twilio blog [here](https://www.twilio.com/blog/2018/03/video-chat-react.html)
+## Inspired by the Twilio blog [here](https://www.twilio.com/blog/2018/03/video-chat-react.html)
